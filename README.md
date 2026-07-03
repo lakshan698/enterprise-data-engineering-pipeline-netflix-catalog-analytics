@@ -9,7 +9,7 @@ The project strictly follows Data Engineering best practices, including dynamic 
 <img width="1703" height="924" alt="ChatGPT Image Jul 3, 2026, 10_55_36 PM" src="https://github.com/user-attachments/assets/6baed393-3cae-407e-802d-48f541d309e0" />
 
 
-> **Note:** This architecture relies purely on custom Databricks Notebooks, Autoloader, and Delta Tables (Delta Live Tables and Azure Synapse are purposefully excluded to maintain granular control over the PySpark logic).
+
 
 ## 🛠️ Technology Stack
 * **Cloud Platform:** Microsoft Azure (ADLS Gen2)
