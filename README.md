@@ -50,11 +50,4 @@ Instead of a single monolithic pipeline, the orchestration is strategically deco
 * **Workflow 2 (Conditional Main Table Load):** A dedicated, scheduled Databricks Workflow exclusively for the heavy `netflix_titles` dataset. This workflow utilizes conditional time-based triggers (configured to execute the `4_silver` transformation notebook specifically on **Day 7**), loading the core dataset into the Silver layer at scheduled intervals.
 * **Data Governance:** All tables across the Medallion architecture are securely registered and governed under the Databricks Unity Catalog (`netflix_catalog.silver...`, `netflix_catalog.gold...`).
 
----
-
-## 🔮 Future Scope
-* **Power BI Dashboard:** Connect the Gold Layer's Star Schema directly to Microsoft Power BI via Databricks SQL endpoint to build an interactive, executive-level reporting dashboard analyzing content trends, actor statistics, and global genre distributions.
-
----
-
 Passionate about building scalable data pipelines, writing optimized PySpark code, and solving complex data modeling challenges.
