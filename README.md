@@ -6,7 +6,8 @@ This project demonstrates a robust, enterprise-grade Data Engineering pipeline b
 The project strictly follows Data Engineering best practices, including dynamic orchestration, automated schema inference, data deduplication, and **Slowly Changing Dimensions (SCD Type 2)** for historical data tracking.
 
 ## 🏗️ High-Level Architecture
-<img width="2429" height="1504" alt="netflix" src="https://github.com/user-attachments/assets/2b6c0c79-bbdb-4f39-815d-6568a7938177" />
+<img width="2774" height="1504" alt="Gemini_Generated_Image_3cd4ht3cd4ht3cd4" src="https://github.com/user-attachments/assets/7a7e559d-744e-483d-aef0-c5bcb48def5c" />
+
 
 
 
