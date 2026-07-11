@@ -48,7 +48,7 @@ Instead of a single monolithic pipeline, the orchestration is strategically deco
 * **Workflow  (Dynamic Reference Data Load):** An automated Databricks Workflow that dynamically iterates through auxiliary files (directors, cast, category, etc.). It triggers the transformation notebooks using dynamic widgets and loads the data into the Silver layer.
 * **Data Governance:** All tables across the Medallion architecture are securely registered and governed under the Databricks Unity Catalog (`netflix_catalog.silver...`, `netflix_catalog.gold...`).
 
-* ## 📊 Business Insights & Dashboard
+## 📊 Business Insights & Dashboard
 Created interactive dashboards directly within Databricks to visualize key metrics, including total trips, revenue by borough, and top pickup/dropoff zones.
 
 *DATABRICKS-DASHBOARD*
