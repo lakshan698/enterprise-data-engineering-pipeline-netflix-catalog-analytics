@@ -1,4 +1,4 @@
-<img width="2774" height="1504" alt="Gemini_Generated_Image_3cd4ht3cd4ht3cd4" src="https://github.com/user-attachments/assets/330d794c-21eb-4a44-b636-f3fe5c638008" /># 🎬 End-to-End Azure & Databricks Data Engineering Pipeline (Netflix Catalog)
+# 🎬 End-to-End Azure & Databricks Data Engineering Pipeline (Netflix Catalog)
 
 ## 📌 Project Overview
 This project demonstrates a robust, enterprise-grade Data Engineering pipeline built on **Azure** and **Databricks**, utilizing the **Medallion Architecture** (Bronze, Silver, Gold). The pipeline processes Netflix catalog data, transforming raw files into a highly optimized **Star Schema** ready for Business Intelligence reporting. 
