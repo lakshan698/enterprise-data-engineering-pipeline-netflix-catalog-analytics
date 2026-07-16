@@ -53,7 +53,6 @@ Instead of a single monolithic pipeline, the orchestration is strategically deco
 * **Data Governance:** All tables across the Medallion architecture are securely registered and governed under the Databricks Unity Catalog (`netflix_catalog.silver...`, `netflix_catalog.gold...`).
 
 ## 📊 Business Insights & Dashboard
-Created interactive dashboards directly within Databricks to visualize key metrics, including total trips, revenue by borough, and top pickup/dropoff zones.
 
 *DATABRICKS-DASHBOARD*
 <img width="1891" height="797" alt="Screenshot 2026-07-11 143255" src="https://github.com/user-attachments/assets/e2da74a6-c547-4e34-87ea-4e0309a6c199" />
